@@ -1,4 +1,4 @@
 name: flutter_multi_modular_clean_architecture
 packages:
-  - apps/*
-  - packages/*
+  - core/**
+  - features/**
