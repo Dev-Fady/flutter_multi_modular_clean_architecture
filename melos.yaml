@@ -14,3 +14,11 @@ command:
     
     dev_dependencies:
       flutter_lints: ^5.0.0
+
+scripts:
+  clean: melos clean
+  cleanAndBootstrap: melos clean && melos bootstrap
+  test:
+    run: melos exec --concurrency=1 -- flutter test
+  update: melos exec flutter pub outdated
+  upgrade: melos exec flutter pub upgrade --major-versions
