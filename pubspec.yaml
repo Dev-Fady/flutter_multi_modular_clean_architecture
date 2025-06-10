@@ -11,6 +11,8 @@ environment:
 dependencies:
   app_settings:
     path: features/settings/app_settings
+  data_store:
+    path: core/data_store
   flutter:
     sdk: flutter
 
