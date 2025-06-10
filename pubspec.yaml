@@ -9,6 +9,8 @@ environment:
 
 
 dependencies:
+  app_settings:
+    path: features/settings/app_settings
   flutter:
     sdk: flutter
 
