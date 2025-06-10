@@ -12,9 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   cupertino_icons: ^1.0.8
   melos: ^6.3.2
+  get_it: ^8.0.3
+  injectable: ^2.5.0
 
 dev_dependencies:
   flutter_test:
@@ -22,6 +23,8 @@ dev_dependencies:
 
 
   flutter_lints: ^5.0.0
+  injectable_generator: ^2.7.0
+  build_runner: ^2.4.15
 
 
 flutter:
