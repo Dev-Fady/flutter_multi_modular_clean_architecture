@@ -5,9 +5,9 @@ class LoginModel {
 
   String age;
 
-  LoginModel(
-    this.name,
-    this.phone,
-    this.age,
-  );
+  LoginModel({
+    required this.name,
+    required this.phone,
+    required this.age,
+  });
 }
