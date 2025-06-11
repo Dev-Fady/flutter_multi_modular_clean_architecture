@@ -15,8 +15,10 @@ command:
       get_it: ^8.0.3
       injectable: ^2.5.0
       json_annotation: ^4.9.0
+      retrofit: ^4.4.2
     
     dev_dependencies:
+      retrofit_generator: ^9.2.0
       injectable_generator: ^2.7.0
       flutter_lints: ^5.0.0
       json_serializable: ^6.9.5
