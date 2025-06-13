@@ -1,4 +1,6 @@
-# melos_managed_dependency_overrides: domain
+# melos_managed_dependency_overrides: domain,data_store
 dependency_overrides:
   domain:
     path: ..\\domain
+  data_store:
+    path: ..\\data_store
