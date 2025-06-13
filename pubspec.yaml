@@ -13,6 +13,8 @@ dependencies:
     path: features/settings/app_settings
   data_store:
     path: core/data_store
+  data:
+    path: core/data
   flutter:
     sdk: flutter
 

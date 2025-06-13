@@ -11,6 +11,8 @@ environment:
 dependencies:
   domain:
     path: ../../core/domain
+  data_store:
+    path: ../../core/data_store
   dio: ^5.8.0+1
   pretty_dio_logger: ^1.4.0
   dartz: ^0.10.1
